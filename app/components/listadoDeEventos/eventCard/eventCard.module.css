@@ -1,0 +1,51 @@
+/* components/listadoDeEventos/eventCard/eventCard.module.css */
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.date {
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.description {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.detailsButton {
+  background-color: #0070f3;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.detailsButton:hover {
+  background-color: #005bb5;
+}

@@ -1,0 +1,19 @@
+/* view/registro/registro.module.css */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  border-bottom: 2px solid #ddd;
+}
+.registro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    background-color: #f0f4ff; /* Azul claro de fondo */
+  }
+      

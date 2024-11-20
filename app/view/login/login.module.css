@@ -1,0 +1,11 @@
+/* view/login/login.module.css */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    background-color: #f0f4ff; /* Azul claro de fondo */
+  }
+  
