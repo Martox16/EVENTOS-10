@@ -1,0 +1,35 @@
+/* app/components/contacto/contacto.module.css */
+
+.contactoContainer {
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+  }
+  
+  .contactoContainer h2 {
+    color: #004080;  /* Color actualizado */
+    text-align: center;
+    font-size: 40px; /* Título más grande */
+    font-weight: bold; /* Hacer el texto en negrita */
+    margin-bottom: 20px; /* Agregar espacio debajo del título */
+  }
+  
+  .contactoContainer p {
+    font-size: 20px; /* Tamaño de texto más grande */
+    color: #004080; /* Color actualizado */
+    margin: 15px 0;
+  }
+  
+  .contactoContainer a {
+    color: #004080; /* Color actualizado */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contactoContainer a:hover {
+    text-decoration: underline;
+  }
+  

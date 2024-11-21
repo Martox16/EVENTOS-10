@@ -46,8 +46,8 @@ const Layout = ({ children }) => {
                 />
               </div>
               <nav className={styles.nav}>
-                <Link href="/">Home</Link>
-                <Link href="/contacto">Contacto</Link>
+                <Link href="/view/listadoDeEventos">Home</Link>
+                <Link href="/view/contacto">Contacto</Link>
                 {user && (
                   <div className={styles.userInfo}>
                     <span>Hola, {user.first_name}</span>
@@ -57,7 +57,7 @@ const Layout = ({ children }) => {
               </nav>
             </header>
             <main>{children}</main>
-            <footer className={styles.footer}>© Sitio De Eventos</footer>
+            <footer className={styles.footer}>© Sitio De Eventos bokita</footer>
           </div>
         </body>
       </html>

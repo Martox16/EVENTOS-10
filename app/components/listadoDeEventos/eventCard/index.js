@@ -1,7 +1,7 @@
 'use client'; // Este es un Client Component
 
 import React from 'react';
-import { useRouter } from 'next/navigation';  // Para usar router.push
+import { useRouter } from 'next/navigation';  // Usamos router.push
 import styles from './eventCard.module.css';
 
 const EventCard = ({ event }) => {
@@ -10,7 +10,7 @@ const EventCard = ({ event }) => {
   const handleDetailsClick = () => {
     // Guardamos el ID del evento en localStorage y luego redirigimos
     localStorage.setItem('selectedEventId', event.id);
-    router.push('/view/detalleDeEvento');  // Redirigimos a la página de detalles
+    router.push('/view/detalleDeEvento');  // Redirigimos a la página de detalles del evento
   };
 
   return (
